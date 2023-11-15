@@ -8,7 +8,6 @@ export function App() {
 
   const [valueDisease,SetValueDisease] = useState("")
 
-
   return (
     <div className="grid grid-cols-2 h-screen bg-gray-50">
       <div>
@@ -23,7 +22,7 @@ export function App() {
           </div>
           <div className='mt-14'>
 
-          <GraphLine/>
+          <GraphLine selectButton={valueDisease}/>
           </div>
         </div>
       </div>
@@ -31,4 +30,3 @@ export function App() {
     </div>
   )
 }
-

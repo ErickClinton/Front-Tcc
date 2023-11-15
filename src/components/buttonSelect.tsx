@@ -12,7 +12,7 @@ export const ButtonSelect: React.FC<IButtonSelect> = ({
   const [isSelected, setIsSelected] = useState(false);
 
   const handleClick = () => {
-    SetValueDisease(isSelected);
+    SetValueDisease(label);
     setIsSelected(!isSelected);
   };
 
