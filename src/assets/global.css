@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+    background-color: #181818;
+    color: #ccc;
+}
+h1 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 18px;
+    margin-left: 5rem;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.data-card {
+    background-color: #212121;
+    color: #ccc;
+    padding: 10px 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+    width: 300px;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.geo_map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.heat_map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxplot_box {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.time-series {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
